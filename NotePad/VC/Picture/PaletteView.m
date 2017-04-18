@@ -14,6 +14,7 @@
 {
     self = [super init];
     if (self) {
+        
         self.backgroundColor = [UIColor whiteColor];
        
         self.lineMArr = [NSMutableArray arrayWithCapacity:1];
