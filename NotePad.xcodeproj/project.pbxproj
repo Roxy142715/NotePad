@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE141F8B1E7E70FF009D78BC /* SpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE141F8A1E7E70FF009D78BC /* SpeechViewController.m */; };
+		CE141F8E1E7E8189009D78BC /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE141F8D1E7E8189009D78BC /* Speech.framework */; };
+		CE141F951E7E9B92009D78BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE141F941E7E9B92009D78BC /* AVFoundation.framework */; };
+		CE141FD61E810335009D78BC /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE141FD51E810335009D78BC /* UserNotifications.framework */; };
+		CE141FE01E82AE88009D78BC /* TodoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE141FDF1E82AE88009D78BC /* TodoEditViewController.m */; };
+		CE20F9541E89367C0011BCB3 /* RecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20F9531E89367C0011BCB3 /* RecorderViewController.m */; };
+		CE20F95A1E8E09A10011BCB3 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20F9591E8E09A10011BCB3 /* MainTableViewController.m */; };
 		CE46E99E1E659CFE00B6ABB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E99D1E659CFE00B6ABB1 /* main.m */; };
 		CE46E9A11E659CFE00B6ABB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9A01E659CFE00B6ABB1 /* AppDelegate.m */; };
 		CE46E9A41E659CFE00B6ABB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9A31E659CFE00B6ABB1 /* ViewController.m */; };
@@ -15,6 +22,35 @@
 		CE46E9AC1E659CFE00B6ABB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE46E9AA1E659CFE00B6ABB1 /* LaunchScreen.storyboard */; };
 		CE46E9B71E659CFF00B6ABB1 /* NotePadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9B61E659CFF00B6ABB1 /* NotePadTests.m */; };
 		CE46E9C21E659CFF00B6ABB1 /* NotePadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9C11E659CFF00B6ABB1 /* NotePadUITests.m */; };
+		CE46E9D71E65A15D00B6ABB1 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9D61E65A15D00B6ABB1 /* FileManager.m */; };
+		CE46E9E71E67F57800B6ABB1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9E61E67F57800B6ABB1 /* UIView+Extension.m */; };
+		CE46E9EA1E67F90800B6ABB1 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9E91E67F90800B6ABB1 /* Const.m */; };
+		CE46E9F61E6800C500B6ABB1 /* PictureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9F51E6800C500B6ABB1 /* PictureListViewController.m */; };
+		CE46E9F91E6800D800B6ABB1 /* TodoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9F81E6800D800B6ABB1 /* TodoListViewController.m */; };
+		CE46E9FC1E6800E800B6ABB1 /* TextListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E9FB1E6800E800B6ABB1 /* TextListViewController.m */; };
+		CE46EA051E680CFB00B6ABB1 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46EA041E680CFB00B6ABB1 /* MainTabBar.m */; };
+		CE46EA081E683D7300B6ABB1 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46EA071E683D7300B6ABB1 /* MainNavigationController.m */; };
+		CE46EA0E1E68460300B6ABB1 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46EA0D1E68460300B6ABB1 /* MainTabBarController.m */; };
+		CE46EA121E69095600B6ABB1 /* TextEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46EA111E69095600B6ABB1 /* TextEditViewController.m */; };
+		CE46EA191E69292600B6ABB1 /* TextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46EA181E69292600B6ABB1 /* TextModel.m */; };
+		CE615D5E1E6D25610068F9FA /* TextPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE615D5D1E6D25610068F9FA /* TextPostTableViewCell.m */; };
+		CE615D611E6D2B2B0068F9FA /* TextPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE615D601E6D2B2B0068F9FA /* TextPostViewController.m */; };
+		CE615D661E6D56F90068F9FA /* TodoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE615D651E6D56F90068F9FA /* TodoModel.m */; };
+		CE615D691E6D60110068F9FA /* TodoListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE615D681E6D60110068F9FA /* TodoListTableViewCell.m */; };
+		CE6C25681E768F0200C76CB8 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C25671E768F0200C76CB8 /* SQLiteManager.m */; };
+		CE6D16AB1E6A768B00DF9AEE /* FZMWFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE46EA161E691C2800B6ABB1 /* FZMWFont.ttf */; };
+		CE6D16AE1E6A788C00DF9AEE /* TextListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D16AD1E6A788C00DF9AEE /* TextListTableViewCell.m */; };
+		CE6D16B11E6A821B00DF9AEE /* TableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D16B01E6A821B00DF9AEE /* TableViewData.m */; };
+		CE77AC6C1E95113D003E9421 /* MainResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77AC6B1E95113D003E9421 /* MainResultTableViewController.m */; };
+		CE77AC721E960EA5003E9421 /* MainShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77AC711E960EA5003E9421 /* MainShowTableViewController.m */; };
+		CE77AC751E960F89003E9421 /* CustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77AC741E960F89003E9421 /* CustomModel.m */; };
+		CE77AC781E96104E003E9421 /* MainShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77AC771E96104E003E9421 /* MainShowTableViewCell.m */; };
+		CE9022E31E7D30A000FBB7C6 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9022E21E7D30A000FBB7C6 /* PaletteViewController.m */; };
+		CE9022F81E7D5B6D00FBB7C6 /* PaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9022F71E7D5B6D00FBB7C6 /* PaletteView.m */; };
+		CEE3DDC81E6E737200BACE9B /* PictureEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3DDC71E6E737200BACE9B /* PictureEditViewController.m */; };
+		CEE3DDCB1E6E87FF00BACE9B /* PictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3DDCA1E6E87FF00BACE9B /* PictureModel.m */; };
+		CEE3DDCF1E6E968200BACE9B /* PictureListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3DDCE1E6E968200BACE9B /* PictureListTableViewCell.m */; };
+		CEF4EB731E6FCEF500434DDF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF4EB711E6FCEF500434DDF /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE141F891E7E70FF009D78BC /* SpeechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeechViewController.h; path = VC/Picture/SpeechViewController.h; sourceTree = "<group>"; };
+		CE141F8A1E7E70FF009D78BC /* SpeechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeechViewController.m; path = VC/Picture/SpeechViewController.m; sourceTree = "<group>"; };
+		CE141F8D1E7E8189009D78BC /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		CE141F941E7E9B92009D78BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE141FD51E810335009D78BC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		CE141FDE1E82AE88009D78BC /* TodoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoEditViewController.h; sourceTree = "<group>"; };
+		CE141FDF1E82AE88009D78BC /* TodoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoEditViewController.m; sourceTree = "<group>"; };
+		CE20F9521E89367C0011BCB3 /* RecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecorderViewController.h; path = VC/Todo/RecorderViewController.h; sourceTree = "<group>"; };
+		CE20F9531E89367C0011BCB3 /* RecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecorderViewController.m; path = VC/Todo/RecorderViewController.m; sourceTree = "<group>"; };
+		CE20F9581E8E09A10011BCB3 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = VC/MainTableViewController.h; sourceTree = "<group>"; };
+		CE20F9591E8E09A10011BCB3 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = VC/MainTableViewController.m; sourceTree = "<group>"; };
 		CE46E9991E659CFE00B6ABB1 /* NotePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46E99D1E659CFE00B6ABB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE46E99F1E659CFE00B6ABB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +98,63 @@
 		CE46E9BD1E659CFF00B6ABB1 /* NotePadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotePadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46E9C11E659CFF00B6ABB1 /* NotePadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotePadUITests.m; sourceTree = "<group>"; };
 		CE46E9C31E659CFF00B6ABB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE46E9D51E65A15D00B6ABB1 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileManager.h; path = Helpers/FileManager.h; sourceTree = "<group>"; };
+		CE46E9D61E65A15D00B6ABB1 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileManager.m; path = Helpers/FileManager.m; sourceTree = "<group>"; };
+		CE46E9D81E65A8C900B6ABB1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CE46E9E51E67F57800B6ABB1 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CE46E9E61E67F57800B6ABB1 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CE46E9E81E67F90800B6ABB1 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		CE46E9E91E67F90800B6ABB1 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		CE46E9F41E6800C500B6ABB1 /* PictureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PictureListViewController.h; path = VC/Picture/PictureListViewController.h; sourceTree = "<group>"; };
+		CE46E9F51E6800C500B6ABB1 /* PictureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PictureListViewController.m; path = VC/Picture/PictureListViewController.m; sourceTree = "<group>"; };
+		CE46E9F71E6800D800B6ABB1 /* TodoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoListViewController.h; path = VC/Todo/TodoListViewController.h; sourceTree = "<group>"; };
+		CE46E9F81E6800D800B6ABB1 /* TodoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoListViewController.m; path = VC/Todo/TodoListViewController.m; sourceTree = "<group>"; };
+		CE46E9FA1E6800E800B6ABB1 /* TextListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextListViewController.h; path = VC/Text/TextListViewController.h; sourceTree = "<group>"; };
+		CE46E9FB1E6800E800B6ABB1 /* TextListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextListViewController.m; path = VC/Text/TextListViewController.m; sourceTree = "<group>"; };
+		CE46EA031E680CFB00B6ABB1 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		CE46EA041E680CFB00B6ABB1 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		CE46EA061E683D7300B6ABB1 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		CE46EA071E683D7300B6ABB1 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		CE46EA0C1E68460300B6ABB1 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTabBarController.h; path = VC/MainTabBarController.h; sourceTree = "<group>"; };
+		CE46EA0D1E68460300B6ABB1 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTabBarController.m; path = VC/MainTabBarController.m; sourceTree = "<group>"; };
+		CE46EA101E69095600B6ABB1 /* TextEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextEditViewController.h; path = VC/TextEditViewController.h; sourceTree = "<group>"; };
+		CE46EA111E69095600B6ABB1 /* TextEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextEditViewController.m; path = VC/TextEditViewController.m; sourceTree = "<group>"; };
+		CE46EA161E691C2800B6ABB1 /* FZMWFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FZMWFont.ttf; path = "../../大三下/FZMWFont.ttf"; sourceTree = "<group>"; };
+		CE46EA171E69292600B6ABB1 /* TextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextModel.h; path = Model/TextModel.h; sourceTree = "<group>"; };
+		CE46EA181E69292600B6ABB1 /* TextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextModel.m; path = Model/TextModel.m; sourceTree = "<group>"; };
+		CE615D5C1E6D25610068F9FA /* TextPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextPostTableViewCell.h; path = VC/View/TextPostTableViewCell.h; sourceTree = "<group>"; };
+		CE615D5D1E6D25610068F9FA /* TextPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextPostTableViewCell.m; path = VC/View/TextPostTableViewCell.m; sourceTree = "<group>"; };
+		CE615D5F1E6D2B2B0068F9FA /* TextPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextPostViewController.h; path = VC/Text/TextPostViewController.h; sourceTree = "<group>"; };
+		CE615D601E6D2B2B0068F9FA /* TextPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextPostViewController.m; path = VC/Text/TextPostViewController.m; sourceTree = "<group>"; };
+		CE615D641E6D56F90068F9FA /* TodoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoModel.h; path = Model/TodoModel.h; sourceTree = "<group>"; };
+		CE615D651E6D56F90068F9FA /* TodoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoModel.m; path = Model/TodoModel.m; sourceTree = "<group>"; };
+		CE615D671E6D60110068F9FA /* TodoListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoListTableViewCell.h; path = VC/Todo/TodoListTableViewCell.h; sourceTree = "<group>"; };
+		CE615D681E6D60110068F9FA /* TodoListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoListTableViewCell.m; path = VC/Todo/TodoListTableViewCell.m; sourceTree = "<group>"; };
+		CE6C25661E768F0200C76CB8 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		CE6C25671E768F0200C76CB8 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		CE6D16AC1E6A788C00DF9AEE /* TextListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextListTableViewCell.h; path = VC/View/TextListTableViewCell.h; sourceTree = "<group>"; };
+		CE6D16AD1E6A788C00DF9AEE /* TextListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextListTableViewCell.m; path = VC/View/TextListTableViewCell.m; sourceTree = "<group>"; };
+		CE6D16AF1E6A821B00DF9AEE /* TableViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewData.h; sourceTree = "<group>"; };
+		CE6D16B01E6A821B00DF9AEE /* TableViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewData.m; sourceTree = "<group>"; };
+		CE77AC6A1E95113D003E9421 /* MainResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainResultTableViewController.h; sourceTree = "<group>"; };
+		CE77AC6B1E95113D003E9421 /* MainResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainResultTableViewController.m; sourceTree = "<group>"; };
+		CE77AC701E960EA5003E9421 /* MainShowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainShowTableViewController.h; sourceTree = "<group>"; };
+		CE77AC711E960EA5003E9421 /* MainShowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainShowTableViewController.m; sourceTree = "<group>"; };
+		CE77AC731E960F89003E9421 /* CustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModel.h; sourceTree = "<group>"; };
+		CE77AC741E960F89003E9421 /* CustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModel.m; sourceTree = "<group>"; };
+		CE77AC761E96104E003E9421 /* MainShowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainShowTableViewCell.h; sourceTree = "<group>"; };
+		CE77AC771E96104E003E9421 /* MainShowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainShowTableViewCell.m; sourceTree = "<group>"; };
+		CE9022E11E7D30A000FBB7C6 /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaletteViewController.h; path = VC/Picture/PaletteViewController.h; sourceTree = "<group>"; };
+		CE9022E21E7D30A000FBB7C6 /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaletteViewController.m; path = VC/Picture/PaletteViewController.m; sourceTree = "<group>"; };
+		CE9022F61E7D5B6D00FBB7C6 /* PaletteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaletteView.h; path = VC/Picture/PaletteView.h; sourceTree = "<group>"; };
+		CE9022F71E7D5B6D00FBB7C6 /* PaletteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaletteView.m; path = VC/Picture/PaletteView.m; sourceTree = "<group>"; };
+		CEE3DDC61E6E737200BACE9B /* PictureEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PictureEditViewController.h; path = VC/Picture/PictureEditViewController.h; sourceTree = "<group>"; };
+		CEE3DDC71E6E737200BACE9B /* PictureEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PictureEditViewController.m; path = VC/Picture/PictureEditViewController.m; sourceTree = "<group>"; };
+		CEE3DDC91E6E87FF00BACE9B /* PictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PictureModel.h; path = Model/PictureModel.h; sourceTree = "<group>"; };
+		CEE3DDCA1E6E87FF00BACE9B /* PictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PictureModel.m; path = Model/PictureModel.m; sourceTree = "<group>"; };
+		CEE3DDCD1E6E968200BACE9B /* PictureListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PictureListTableViewCell.h; path = VC/Picture/PictureListTableViewCell.h; sourceTree = "<group>"; };
+		CEE3DDCE1E6E968200BACE9B /* PictureListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PictureListTableViewCell.m; path = VC/Picture/PictureListTableViewCell.m; sourceTree = "<group>"; };
+		CEF4EB711E6FCEF500434DDF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +162,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE141FD61E810335009D78BC /* UserNotifications.framework in Frameworks */,
+				CE141F951E7E9B92009D78BC /* AVFoundation.framework in Frameworks */,
+				CE141F8E1E7E8189009D78BC /* Speech.framework in Frameworks */,
+				CEF4EB731E6FCEF500434DDF /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +186,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE141F8C1E7E8189009D78BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE141FD51E810335009D78BC /* UserNotifications.framework */,
+				CE141F941E7E9B92009D78BC /* AVFoundation.framework */,
+				CE141F8D1E7E8189009D78BC /* Speech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE20F8D01E890A7A0011BCB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE141FDE1E82AE88009D78BC /* TodoEditViewController.h */,
+				CE141FDF1E82AE88009D78BC /* TodoEditViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		CE46E9901E659CFE00B6ABB1 = {
 			isa = PBXGroup;
 			children = (
+				CEF4EB711E6FCEF500434DDF /* libsqlite3.tbd */,
 				CE46E99B1E659CFE00B6ABB1 /* NotePad */,
 				CE46E9B51E659CFF00B6ABB1 /* NotePadTests */,
 				CE46E9C01E659CFF00B6ABB1 /* NotePadUITests */,
 				CE46E99A1E659CFE00B6ABB1 /* Products */,
+				CE141F8C1E7E8189009D78BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +230,14 @@
 		CE46E99B1E659CFE00B6ABB1 /* NotePad */ = {
 			isa = PBXGroup;
 			children = (
-				CE46E99F1E659CFE00B6ABB1 /* AppDelegate.h */,
-				CE46E9A01E659CFE00B6ABB1 /* AppDelegate.m */,
-				CE46E9A21E659CFE00B6ABB1 /* ViewController.h */,
-				CE46E9A31E659CFE00B6ABB1 /* ViewController.m */,
-				CE46E9A51E659CFE00B6ABB1 /* Main.storyboard */,
-				CE46E9A81E659CFE00B6ABB1 /* Assets.xcassets */,
-				CE46E9AA1E659CFE00B6ABB1 /* LaunchScreen.storyboard */,
-				CE46E9AD1E659CFE00B6ABB1 /* Info.plist */,
+				CE6C25531E72C9F300C76CB8 /* SQLite3 */,
+				CE46E9E41E67F56100B6ABB1 /* Extension */,
+				CE46E9E31E67E4FA00B6ABB1 /* Const */,
+				CE46E9CF1E65A08A00B6ABB1 /* Data */,
+				CE46E9D01E65A09B00B6ABB1 /* Model */,
+				CE46E9D21E65A0AB00B6ABB1 /* File */,
+				CE46E9D41E65A0BE00B6ABB1 /* VC */,
+				CE46E9DA1E65A9B800B6ABB1 /* Other */,
 				CE46E99C1E659CFE00B6ABB1 /* Supporting Files */,
 			);
 			path = NotePad;
@@ -138,6 +267,229 @@
 				CE46E9C31E659CFF00B6ABB1 /* Info.plist */,
 			);
 			path = NotePadUITests;
+			sourceTree = "<group>";
+		};
+		CE46E9CF1E65A08A00B6ABB1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D16AF1E6A821B00DF9AEE /* TableViewData.h */,
+				CE6D16B01E6A821B00DF9AEE /* TableViewData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		CE46E9D01E65A09B00B6ABB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE46EA171E69292600B6ABB1 /* TextModel.h */,
+				CE46EA181E69292600B6ABB1 /* TextModel.m */,
+				CE615D641E6D56F90068F9FA /* TodoModel.h */,
+				CE615D651E6D56F90068F9FA /* TodoModel.m */,
+				CEE3DDC91E6E87FF00BACE9B /* PictureModel.h */,
+				CEE3DDCA1E6E87FF00BACE9B /* PictureModel.m */,
+				CE77AC731E960F89003E9421 /* CustomModel.h */,
+				CE77AC741E960F89003E9421 /* CustomModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE46E9D21E65A0AB00B6ABB1 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				CE46E9D51E65A15D00B6ABB1 /* FileManager.h */,
+				CE46E9D61E65A15D00B6ABB1 /* FileManager.m */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		CE46E9D41E65A0BE00B6ABB1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CE615D6A1E6D9ABB0068F9FA /* Main */,
+				CE46E9DC1E65AA1000B6ABB1 /* Picture */,
+				CE46E9DB1E65AA0D00B6ABB1 /* Todo */,
+				CE46E9D91E65A9B300B6ABB1 /* Text */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		CE46E9D91E65A9B300B6ABB1 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				CE46E9FA1E6800E800B6ABB1 /* TextListViewController.h */,
+				CE46E9FB1E6800E800B6ABB1 /* TextListViewController.m */,
+				CE46EA0F1E69091F00B6ABB1 /* Controllers */,
+				CEDAFA1A1E699A3E006A1106 /* View */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		CE46E9DA1E65A9B800B6ABB1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CE46EA161E691C2800B6ABB1 /* FZMWFont.ttf */,
+				CE46E99F1E659CFE00B6ABB1 /* AppDelegate.h */,
+				CE46E9A01E659CFE00B6ABB1 /* AppDelegate.m */,
+				CE46E9A21E659CFE00B6ABB1 /* ViewController.h */,
+				CE46E9A31E659CFE00B6ABB1 /* ViewController.m */,
+				CE46E9A51E659CFE00B6ABB1 /* Main.storyboard */,
+				CE46E9A81E659CFE00B6ABB1 /* Assets.xcassets */,
+				CE46E9AA1E659CFE00B6ABB1 /* LaunchScreen.storyboard */,
+				CE46E9AD1E659CFE00B6ABB1 /* Info.plist */,
+				CE46E9D81E65A8C900B6ABB1 /* PrefixHeader.pch */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		CE46E9DB1E65AA0D00B6ABB1 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				CE46E9F71E6800D800B6ABB1 /* TodoListViewController.h */,
+				CE46E9F81E6800D800B6ABB1 /* TodoListViewController.m */,
+				CE20F8D01E890A7A0011BCB3 /* Controller */,
+				CE615D621E6D54F40068F9FA /* View */,
+			);
+			name = Todo;
+			sourceTree = "<group>";
+		};
+		CE46E9DC1E65AA1000B6ABB1 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				CE46E9F41E6800C500B6ABB1 /* PictureListViewController.h */,
+				CE46E9F51E6800C500B6ABB1 /* PictureListViewController.m */,
+				CEE3DDC51E6E734C00BACE9B /* Controllers */,
+				CEE3DDCC1E6E95FC00BACE9B /* View */,
+			);
+			name = Picture;
+			sourceTree = "<group>";
+		};
+		CE46E9E31E67E4FA00B6ABB1 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				CE46E9E81E67F90800B6ABB1 /* Const.h */,
+				CE46E9E91E67F90800B6ABB1 /* Const.m */,
+			);
+			name = Const;
+			sourceTree = "<group>";
+		};
+		CE46E9E41E67F56100B6ABB1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE46E9E51E67F57800B6ABB1 /* UIView+Extension.h */,
+				CE46E9E61E67F57800B6ABB1 /* UIView+Extension.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		CE46EA0F1E69091F00B6ABB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE46EA101E69095600B6ABB1 /* TextEditViewController.h */,
+				CE46EA111E69095600B6ABB1 /* TextEditViewController.m */,
+				CE615D5F1E6D2B2B0068F9FA /* TextPostViewController.h */,
+				CE615D601E6D2B2B0068F9FA /* TextPostViewController.m */,
+				CE141F891E7E70FF009D78BC /* SpeechViewController.h */,
+				CE141F8A1E7E70FF009D78BC /* SpeechViewController.m */,
+				CE20F9521E89367C0011BCB3 /* RecorderViewController.h */,
+				CE20F9531E89367C0011BCB3 /* RecorderViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CE615D621E6D54F40068F9FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE615D671E6D60110068F9FA /* TodoListTableViewCell.h */,
+				CE615D681E6D60110068F9FA /* TodoListTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CE615D6A1E6D9ABB0068F9FA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE46EA031E680CFB00B6ABB1 /* MainTabBar.h */,
+				CE46EA041E680CFB00B6ABB1 /* MainTabBar.m */,
+				CE46EA0C1E68460300B6ABB1 /* MainTabBarController.h */,
+				CE46EA0D1E68460300B6ABB1 /* MainTabBarController.m */,
+				CE46EA061E683D7300B6ABB1 /* MainNavigationController.h */,
+				CE46EA071E683D7300B6ABB1 /* MainNavigationController.m */,
+				CE77AC791E9B50E7003E9421 /* Search */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CE6C25531E72C9F300C76CB8 /* SQLite3 */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C25661E768F0200C76CB8 /* SQLiteManager.h */,
+				CE6C25671E768F0200C76CB8 /* SQLiteManager.m */,
+			);
+			name = SQLite3;
+			sourceTree = "<group>";
+		};
+		CE77AC791E9B50E7003E9421 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CE77AC7B1E9B5134003E9421 /* View */,
+				CE77AC7A1E9B5124003E9421 /* ViewController */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		CE77AC7A1E9B5124003E9421 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE20F9581E8E09A10011BCB3 /* MainTableViewController.h */,
+				CE20F9591E8E09A10011BCB3 /* MainTableViewController.m */,
+				CE77AC6A1E95113D003E9421 /* MainResultTableViewController.h */,
+				CE77AC6B1E95113D003E9421 /* MainResultTableViewController.m */,
+				CE77AC701E960EA5003E9421 /* MainShowTableViewController.h */,
+				CE77AC711E960EA5003E9421 /* MainShowTableViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CE77AC7B1E9B5134003E9421 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE77AC761E96104E003E9421 /* MainShowTableViewCell.h */,
+				CE77AC771E96104E003E9421 /* MainShowTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CEDAFA1A1E699A3E006A1106 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D16AC1E6A788C00DF9AEE /* TextListTableViewCell.h */,
+				CE6D16AD1E6A788C00DF9AEE /* TextListTableViewCell.m */,
+				CE615D5C1E6D25610068F9FA /* TextPostTableViewCell.h */,
+				CE615D5D1E6D25610068F9FA /* TextPostTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CEE3DDC51E6E734C00BACE9B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3DDC61E6E737200BACE9B /* PictureEditViewController.h */,
+				CEE3DDC71E6E737200BACE9B /* PictureEditViewController.m */,
+				CE9022E11E7D30A000FBB7C6 /* PaletteViewController.h */,
+				CE9022E21E7D30A000FBB7C6 /* PaletteViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CEE3DDCC1E6E95FC00BACE9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3DDCD1E6E968200BACE9B /* PictureListTableViewCell.h */,
+				CEE3DDCE1E6E968200BACE9B /* PictureListTableViewCell.m */,
+				CE9022F61E7D5B6D00FBB7C6 /* PaletteView.h */,
+				CE9022F71E7D5B6D00FBB7C6 /* PaletteView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,18 +554,22 @@
 		CE46E9911E659CFE00B6ABB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = ZXX;
 				TargetAttributes = {
 					CE46E9981E659CFE00B6ABB1 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QR9Y78XQTL;
+						ProvisioningStyle = Automatic;
 					};
 					CE46E9B11E659CFF00B6ABB1 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QR9Y78XQTL;
 						TestTargetID = CE46E9981E659CFE00B6ABB1;
 					};
 					CE46E9BC1E659CFF00B6ABB1 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QR9Y78XQTL;
 						TestTargetID = CE46E9981E659CFE00B6ABB1;
 					};
 				};
@@ -243,6 +599,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6D16AB1E6A768B00DF9AEE /* FZMWFont.ttf in Resources */,
 				CE46E9AC1E659CFE00B6ABB1 /* LaunchScreen.storyboard in Resources */,
 				CE46E9A91E659CFE00B6ABB1 /* Assets.xcassets in Resources */,
 				CE46E9A71E659CFE00B6ABB1 /* Main.storyboard in Resources */,
@@ -270,9 +627,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE20F9541E89367C0011BCB3 /* RecorderViewController.m in Sources */,
+				CEE3DDCF1E6E968200BACE9B /* PictureListTableViewCell.m in Sources */,
+				CE6D16AE1E6A788C00DF9AEE /* TextListTableViewCell.m in Sources */,
+				CE46E9F91E6800D800B6ABB1 /* TodoListViewController.m in Sources */,
+				CE46EA121E69095600B6ABB1 /* TextEditViewController.m in Sources */,
+				CE77AC721E960EA5003E9421 /* MainShowTableViewController.m in Sources */,
+				CE77AC6C1E95113D003E9421 /* MainResultTableViewController.m in Sources */,
+				CE615D5E1E6D25610068F9FA /* TextPostTableViewCell.m in Sources */,
+				CE9022F81E7D5B6D00FBB7C6 /* PaletteView.m in Sources */,
+				CE141FE01E82AE88009D78BC /* TodoEditViewController.m in Sources */,
+				CE615D611E6D2B2B0068F9FA /* TextPostViewController.m in Sources */,
+				CE615D691E6D60110068F9FA /* TodoListTableViewCell.m in Sources */,
+				CE46EA081E683D7300B6ABB1 /* MainNavigationController.m in Sources */,
+				CE6D16B11E6A821B00DF9AEE /* TableViewData.m in Sources */,
+				CE46E9FC1E6800E800B6ABB1 /* TextListViewController.m in Sources */,
+				CE46E9F61E6800C500B6ABB1 /* PictureListViewController.m in Sources */,
+				CEE3DDC81E6E737200BACE9B /* PictureEditViewController.m in Sources */,
 				CE46E9A41E659CFE00B6ABB1 /* ViewController.m in Sources */,
+				CE46EA191E69292600B6ABB1 /* TextModel.m in Sources */,
+				CE46E9EA1E67F90800B6ABB1 /* Const.m in Sources */,
+				CE77AC751E960F89003E9421 /* CustomModel.m in Sources */,
+				CEE3DDCB1E6E87FF00BACE9B /* PictureModel.m in Sources */,
+				CE46EA051E680CFB00B6ABB1 /* MainTabBar.m in Sources */,
+				CE46EA0E1E68460300B6ABB1 /* MainTabBarController.m in Sources */,
+				CE20F95A1E8E09A10011BCB3 /* MainTableViewController.m in Sources */,
 				CE46E9A11E659CFE00B6ABB1 /* AppDelegate.m in Sources */,
+				CE141F8B1E7E70FF009D78BC /* SpeechViewController.m in Sources */,
+				CE77AC781E96104E003E9421 /* MainShowTableViewCell.m in Sources */,
 				CE46E99E1E659CFE00B6ABB1 /* main.m in Sources */,
+				CE615D661E6D56F90068F9FA /* TodoModel.m in Sources */,
+				CE46E9E71E67F57800B6ABB1 /* UIView+Extension.m in Sources */,
+				CE46E9D71E65A15D00B6ABB1 /* FileManager.m in Sources */,
+				CE6C25681E768F0200C76CB8 /* SQLiteManager.m in Sources */,
+				CE9022E31E7D30A000FBB7C6 /* PaletteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +728,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -363,7 +753,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -383,8 +773,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -400,7 +792,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,9 +803,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QR9Y78XQTL;
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = /Users/chenxiaolei/Desktop/NotePad/NotePad/PrefixHeader.pch;
 				INFOPLIST_FILE = NotePad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = macil.NotePad;
+				PRODUCT_BUNDLE_IDENTIFIER = macil.SpeechRecognitionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -422,9 +819,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QR9Y78XQTL;
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = /Users/chenxiaolei/Desktop/NotePad/NotePad/PrefixHeader.pch;
 				INFOPLIST_FILE = NotePad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = macil.NotePad;
+				PRODUCT_BUNDLE_IDENTIFIER = macil.SpeechRecognitionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -433,6 +835,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QR9Y78XQTL;
 				INFOPLIST_FILE = NotePadTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = macil.NotePadTests;
@@ -445,6 +848,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QR9Y78XQTL;
 				INFOPLIST_FILE = NotePadTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = macil.NotePadTests;
@@ -456,6 +860,7 @@
 		CE46E9CD1E659CFF00B6ABB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QR9Y78XQTL;
 				INFOPLIST_FILE = NotePadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = macil.NotePadUITests;
@@ -468,6 +873,7 @@
 		CE46E9CE1E659CFF00B6ABB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QR9Y78XQTL;
 				INFOPLIST_FILE = NotePadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = macil.NotePadUITests;
@@ -496,6 +902,7 @@
 				CE46E9C81E659CFF00B6ABB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE46E9C91E659CFF00B6ABB1 /* Build configuration list for PBXNativeTarget "NotePadTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +911,7 @@
 				CE46E9CB1E659CFF00B6ABB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE46E9CC1E659CFF00B6ABB1 /* Build configuration list for PBXNativeTarget "NotePadUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +920,7 @@
 				CE46E9CE1E659CFF00B6ABB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

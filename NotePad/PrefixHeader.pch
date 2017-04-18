@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  NotePad
+//
+//  Created by 陈晓磊 on 17/2/28.
+//  Copyright © 2017年 ZXX. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 调用常用的类
+#import <sqlite3.h>
+#import "SQLiteManager.h"
+
+#import "MainTableViewController.h"
+
+#import "Const.h"
+#import "UIView+Extension.h"
+#import "FileManager.h"
+#import "TableViewData.h"
+
+// 使用自定义的NSLog,在调试的时候自动隐藏
+#ifdef DEBUG
+#define ZLog(...) NSLog(__VA_ARGS__)
+
+#else
+#define ZLog(...)
+#endif
+
+// 输出调用方法名
+#define ZLogFun ZLog(@"%s",__func__)
+
+// 屏幕的宽 高
+#define ZScreenW [UIScreen mainScreen].bounds.size.width
+#define ZScreenH [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */
